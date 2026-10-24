@@ -1,49 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="About Vaibhav Singh">
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img">
   <defs>
     <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#247bff"/>
       <stop offset="100%" stop-color="#4da3ff"/>
     </linearGradient>
-    <style>
-      .bg { fill: #070b16; }
-      .card { fill: #0c1220; stroke: #1b2740; }
-      .white { fill: #f4f7fb; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
-      .muted { fill: #9aa6b8; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
-      .blue { fill: #247bff; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
-    </style>
   </defs>
-  <rect class="bg" width="880" height="250" rx="22"/>
-  <text class="blue" x="36" y="42" font-size="13" font-weight="700">01  /  ABOUT LIFE</text>
-  <text class="white" x="36" y="74" font-size="26" font-weight="800">What I actually ship.</text>
-  <text class="muted" x="36" y="100" font-size="14">Backend systems, payments, and APIs that stay up in production.</text>
+  <rect width="880" height="250" rx="22" fill="#070b16"/>
+  <text x="36" y="42" fill="#247bff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">01  /  ABOUT LIFE</text>
+  <text x="36" y="74" fill="#f4f7fb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800">What I actually ship.</text>
+  <text x="36" y="100" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14">Backend systems, payments, and APIs that stay up in production.</text>
 
-  <text class="muted" x="36" y="138" font-size="12">DJANGO REST  ·  APIS</text>
+  <text x="36" y="138" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">DJANGO REST  |  APIS</text>
   <rect x="36" y="146" width="380" height="8" rx="4" fill="#162033"/>
-  <rect x="36" y="146" width="0" height="8" rx="4" fill="url(#bar)"><animate attributeName="width" from="0" to="342" dur="1.4s" fill="freeze"/></rect>
+  <rect x="36" y="146" width="342" height="8" rx="4" fill="url(#bar)"/>
 
-  <text class="muted" x="36" y="178" font-size="12">PYTHON  ·  POSTGRESQL</text>
+  <text x="36" y="178" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">PYTHON  |  POSTGRESQL</text>
   <rect x="36" y="186" width="380" height="8" rx="4" fill="#162033"/>
-  <rect x="36" y="186" width="0" height="8" rx="4" fill="url(#bar)"><animate attributeName="width" from="0" to="318" dur="1.6s" fill="freeze"/></rect>
+  <rect x="36" y="186" width="318" height="8" rx="4" fill="url(#bar)"/>
 
-  <text class="muted" x="36" y="218" font-size="12">AWS  ·  NGINX  ·  PAYMENTS</text>
+  <text x="36" y="218" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">AWS  |  NGINX  |  PAYMENTS</text>
   <rect x="36" y="226" width="380" height="8" rx="4" fill="#162033"/>
-  <rect x="36" y="226" width="0" height="8" rx="4" fill="url(#bar)"><animate attributeName="width" from="0" to="296" dur="1.8s" fill="freeze"/></rect>
+  <rect x="36" y="226" width="296" height="8" rx="4" fill="url(#bar)"/>
 
-  <rect class="card" x="460" y="36" width="384" height="178" rx="16"/>
-  <text class="blue" x="484" y="68" font-size="12" font-weight="700">INTERESTS</text>
-  <text fill="#f4f7fb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" x="484" y="112">
-    Backend Systems
-    <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
-  </text>
-  <text fill="#f4f7fb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" x="484" y="112" opacity="0">
-    DSA · 100+ LeetCode
-    <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
-  </text>
-  <text fill="#f4f7fb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" x="484" y="112" opacity="0">
-    Payments &amp; Cloud
-    <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
-  </text>
-  <text class="muted" x="484" y="148" font-size="13">Django · Razorpay · Juspay · AWS EC2/S3</text>
-  <text class="muted" x="484" y="176" font-size="13">B.Tech CSE · IKGPTU · CGPA 7.8 / 10</text>
-  <text class="muted" x="484" y="198" font-size="12">Currently shipping at Spoto.in</text>
+  <rect x="460" y="36" width="384" height="178" rx="16" fill="#0c1220" stroke="#1b2740"/>
+  <text x="484" y="68" fill="#247bff" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700">INTERESTS</text>
+  <text x="484" y="112" fill="#f4f7fb" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800">Backend Systems</text>
+  <text x="484" y="148" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">Django | Razorpay | Juspay | AWS EC2/S3</text>
+  <text x="484" y="176" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13">B.Tech CSE | IKGPTU | CGPA 7.8 / 10</text>
+  <text x="484" y="198" fill="#9aa6b8" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12">Currently shipping at Spoto.in</text>
 </svg>
