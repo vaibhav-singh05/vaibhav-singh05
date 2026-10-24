@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="210" viewBox="0 0 880 210" role="img" aria-label="Tech stack">
+  <defs>
+    <style>
+      .bg { fill: #070b16; }
+      .chip { fill: #0c1220; stroke: #247bff; stroke-opacity: 0.45; }
+      .t { fill: #f4f7fb; font-family: Segoe UI, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 600; }
+      .h { fill: #f4f7fb; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+      .blue { fill: #247bff; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect class="bg" width="880" height="210" rx="22"/>
+  <text class="blue" x="36" y="40" font-size="13" font-weight="700">02  /  STACK</text>
+  <text class="h" x="36" y="72" font-size="26" font-weight="800">Tools I keep close.</text>
+
+  <g>
+    <rect class="chip" x="36" y="96" width="92" height="36" rx="18"/>
+    <text class="t" x="82" y="119" text-anchor="middle">Python</text>
+    <rect class="chip" x="140" y="96" width="92" height="36" rx="18"/>
+    <text class="t" x="186" y="119" text-anchor="middle">Django</text>
+    <rect class="chip" x="244" y="96" width="70" height="36" rx="18"/>
+    <text class="t" x="279" y="119" text-anchor="middle">DRF</text>
+    <rect class="chip" x="326" y="96" width="118" height="36" rx="18"/>
+    <text class="t" x="385" y="119" text-anchor="middle">PostgreSQL</text>
+    <rect class="chip" x="456" y="96" width="78" height="36" rx="18"/>
+    <text class="t" x="495" y="119" text-anchor="middle">AWS</text>
+    <rect class="chip" x="546" y="96" width="110" height="36" rx="18"/>
+    <text class="t" x="601" y="119" text-anchor="middle">JavaScript</text>
+    <rect class="chip" x="668" y="96" width="80" height="36" rx="18"/>
+    <text class="t" x="708" y="119" text-anchor="middle">Linux</text>
+  </g>
+  <g>
+    <rect class="chip" x="36" y="146" width="86" height="36" rx="18"/>
+    <text class="t" x="79" y="169" text-anchor="middle">Nginx</text>
+    <rect class="chip" x="134" y="146" width="104" height="36" rx="18"/>
+    <text class="t" x="186" y="169" text-anchor="middle">Gunicorn</text>
+    <rect class="chip" x="250" y="146" width="100" height="36" rx="18"/>
+    <text class="t" x="300" y="169" text-anchor="middle">Razorpay</text>
+    <rect class="chip" x="362" y="146" width="82" height="36" rx="18"/>
+    <text class="t" x="403" y="169" text-anchor="middle">Juspay</text>
+    <rect class="chip" x="456" y="146" width="96" height="36" rx="18"/>
+    <text class="t" x="504" y="169" text-anchor="middle">Postman</text>
+    <rect class="chip" x="564" y="146" width="72" height="36" rx="18"/>
+    <text class="t" x="600" y="169" text-anchor="middle">C/C++</text>
+    <rect class="chip" x="648" y="146" width="86" height="36" rx="18"/>
+    <text class="t" x="691" y="169" text-anchor="middle">MySQL</text>
+  </g>
+</svg>

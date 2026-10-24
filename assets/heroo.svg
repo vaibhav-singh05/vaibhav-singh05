@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="880" height="300" viewBox="0 0 880 300" role="img" aria-label="Vaibhav Singh  Senior AI Software Engineer">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#247bff"/>
+      <stop offset="100%" stop-color="#ff354f"/>
+    </linearGradient>
+    <clipPath id="nameClip"><rect x="36" y="62" width="520" height="78"><animate attributeName="height" from="0" to="78" dur="1.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="avatarClip"><circle cx="742" cy="128" r="78"/></clipPath>
+    <style>
+      .bg { fill: #070b16; }
+      .muted { fill: #9aa6b8; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+      .white { fill: #f4f7fb; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+      .blue { fill: #247bff; font-family: Segoe UI, Helvetica, Arial, sans-serif; }
+      .mono { fill: #7d8da3; font-family: Consolas, Courier New, monospace; }
+      .role { opacity: 0; }
+    </style>
+  </defs>
+  <rect class="bg" width="880" height="300" rx="22"/>
+  <rect x="0" y="0" width="880" height="3" fill="url(#line)"/>
+  <text class="mono" x="36" y="38" font-size="12">vaibhav-singh05 / profile</text>
+  <text class="muted" x="36" y="78" font-size="22">Hi. I am</text>
+  <g clip-path="url(#nameClip)">
+    <text class="white" x="36" y="128" font-size="46" font-weight="800">VAIBHAV SINGH</text>
+  </g>
+  <text class="role blue" x="36" y="168" font-size="20" font-weight="600">Senior AI Software Engineer
+    <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.05;0.22;0.27;1" dur="16s" repeatCount="indefinite"/>
+  </text>
+  <text class="role blue" x="36" y="168" font-size="20" font-weight="600">AI Software Engineer @ Spoto.in
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.30;0.47;0.52;1" dur="16s" repeatCount="indefinite"/>
+  </text>
+  <text class="role blue" x="36" y="168" font-size="20" font-weight="600">Django REST + API Builder
+    <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.50;0.55;0.72;0.77;1" dur="16s" repeatCount="indefinite"/>
+  </text>
+  <text class="role blue" x="36" y="168" font-size="20" font-weight="600">Python ù PostgreSQL ù AWS
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.75;0.80;0.97;1" dur="16s" repeatCount="indefinite"/>
+  </text>
+  <text class="muted" x="36" y="208" font-size="15">I build AI-powered, scalable backends with Python, Django REST and APIs.</text>
+  <rect x="36" y="232" width="8" height="8" rx="2" fill="#247bff"/>
+  <text class="muted" x="52" y="241" font-size="13">Gorakhpur, Uttar Pradesh  ù  Bengaluru ù Remote</text>
+  <rect x="36" y="258" width="8" height="8" rx="2" fill="#ff354f"/>
+  <text class="muted" x="52" y="267" font-size="13">Spoto.in  ù  Senior AI Software Engineer</text>
+  <circle cx="742" cy="128" r="82" fill="none" stroke="#247bff" stroke-width="2" opacity="0.55"/>
+  <circle cx="742" cy="128" r="82" fill="none" stroke="#ff354f" stroke-width="1.5" opacity="0.35">
+    <animateTransform attributeName="transform" type="rotate" from="0 742 128" to="360 742 128" dur="14s" repeatCount="indefinite"/>
+  </circle>
+  <image href="id.png" x="664" y="50" width="156" height="156" clip-path="url(#avatarClip)" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="686" y="218" width="112" height="26" rx="13" fill="#ff354f"/>
+  <text x="742" y="236" text-anchor="middle" fill="#070b16" font-size="11" font-weight="700" font-family="Segoe UI, Helvetica, Arial, sans-serif">SPOTO.IN</text>
+</svg>
