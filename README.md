@@ -1,40 +1,31 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/hero.svg?v=6" width="100%" alt="Hi, I'm Vaibhav Singh â€” Senior AI Software Engineer at Spoto.in. Building AI-powered, scalable backends with Python, Django REST and APIs." />
+</p>
 
-<img src="./assets/heroo.png" alt="Vaibhav Singh intro" width="880" />
+<img src="./assets/about-life.svg?v=6" width="100%" alt="Django REST and APIs, AI and cloud backends, full-stack shipping. Backend systems, live products, and problem solving." />
 
-<img src="./assets/id.png" alt="Vaibhav Singh" width="200" />
-<img src="./assets/right_pointing.png" alt="Vaibhav pointing" height="220" />
+<img src="./assets/stack.svg?v=6" width="100%" alt="My stack: Python, JavaScript, C/C++, Django, DRF, PostgreSQL, AWS, Nginx, and Razorpay." />
 
-<img src="./assets/about-life.png" alt="About" width="880" />
-<img src="./assets/stack.png" alt="Stack" width="880" />
-<img src="./assets/id-dashboard.png" alt="Identity" width="880" />
-<img src="./assets/connect.png" alt="Connect" width="880" />
+### Things I've built
 
-<br/>
+| Project | What it does | Focus |
+| :--- | :--- | :--- |
+| [**Medical Counselling Center**](https://medicalcounsellingcenter.com/) | Live counselling platform with payments and admin workflows | Django + Payments |
+| [**Unibook**](https://unibook-krly.onrender.com) | Student book exchange for campus | Full-stack Django |
+| [**Vani**](https://vani-6hcu.onrender.com) | E-commerce storefront with cart and checkout | Commerce + Django |
+| [**Task Manager Pro**](https://task-manager-a4jc.onrender.com) | Productivity app for tasks and tracking | Product + Django |
+| [**Quora Clone**](https://quora-phjc.onrender.com) | Q&A platform with voting and search | Community + Django |
+| [**Educa**](https://vaibhav-singh05.github.io/Educa-Web/) | Education landing and course pages | Frontend |
 
-**Vaibhav Singh** · Senior AI Software Engineer @ [Spoto.in](https://spoto.in)  
-Gorakhpur, Uttar Pradesh · Bengaluru (Remote)
+<img src="./assets/id-dashboard.svg?v=6" width="100%" alt="Vaibhav's builder ID and public dashboard. 100+ LeetCode, 13 public repositories, 2+ years shipping. Snapshot: October 24, 2026." />
 
-[LinkedIn](https://www.linkedin.com/in/vaibhav-singh-2a5991229/)
-·
-[Email](mailto:vaibhavsingh273010@gmail.com)
-·
-[Portfolio](https://vaibhav-singh05.github.io/Portfolio-Website/)
-·
-[GitHub](https://github.com/vaibhav-singh05)
-
-</div>
-
----
-
-### Now shipping
-- **Medical Counselling Center** — Django, PostgreSQL, Razorpay, Nginx · [live](https://medicalcounsellingcenter.com/)
-- **Unibook** — student book exchange · [live](https://unibook-krly.onrender.com) · [code](https://github.com/vaibhav-singh05/UniBook)
-- **Vani** — Django e-commerce · [live](https://vani-6hcu.onrender.com) · [code](https://github.com/vaibhav-singh05/Vani)
-
-### Also built
-- [Task Manager Pro](https://task-manager-a4jc.onrender.com) · [Quora Clone](https://quora-phjc.onrender.com) · [Educa](https://vaibhav-singh05.github.io/Educa-Web/)
+<img src="./assets/connect.svg?v=6" width="100%" alt="Let's build what's next. Connect on LinkedIn, GitHub, email, or the live portfolio." />
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=vaibhav-singh05&label=Profile+views&color=247bff&style=flat-square" alt="profile views" />
+  <a href="https://www.linkedin.com/in/vaibhav-singh-2a5991229/">LinkedIn</a> &nbsp;Â·&nbsp;
+  <a href="https://github.com/vaibhav-singh05">GitHub</a> &nbsp;Â·&nbsp;
+  <a href="mailto:vaibhavsingh273010@gmail.com">Email</a> &nbsp;Â·&nbsp;
+  <a href="https://vaibhav-singh05.github.io/Portfolio-Website/">Portfolio</a>
 </p>
+
+<p align="center"><sub>Curious by default. Building with intent.</sub></p>
