@@ -735,17 +735,6 @@ def write_readme() -> None:
 
 <img src="./assets/stack.svg?v=8" width="100%" alt="My stack: Python, JavaScript, C/C++, Django, DRF, PostgreSQL, AWS, Nginx, and Razorpay." />
 
-### Things I've built
-
-| Project | What it does | Focus |
-| :--- | :--- | :--- |
-| [**Medical Counselling Center**](https://medicalcounsellingcenter.com/) | Live counselling platform with payments and admin workflows | Django + Payments |
-| [**Unibook**](https://unibook-krly.onrender.com) | Student book exchange for campus | Full-stack Django |
-| [**Vani**](https://vani-6hcu.onrender.com) | E-commerce storefront with cart and checkout | Commerce + Django |
-| [**Task Manager Pro**](https://task-manager-a4jc.onrender.com) | Productivity app for tasks and tracking | Product + Django |
-| [**Quora Clone**](https://quora-phjc.onrender.com) | Q&A platform with voting and search | Community + Django |
-| [**Educa**](https://vaibhav-singh05.github.io/Educa-Web/) | Education landing and course pages | Frontend |
-
 <img src="./assets/id-dashboard.svg?v=8" width="100%" alt="Vaibhav's builder ID and public dashboard. 100+ LeetCode, 13 public repositories, 2+ years shipping. Snapshot: October 24, 2026." />
 
 <img src="./assets/connect.svg?v=8" width="100%" alt="Let's build what's next. Connect on LinkedIn, GitHub, email, or the live portfolio." />
