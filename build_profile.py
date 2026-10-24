@@ -725,19 +725,54 @@ def build_connect() -> str:
     )
 
 
+CONNECT_LINKS = [
+    ("connect-linkedin.svg", "https://www.linkedin.com/in/vaibhav-singh-2a5991229/", "LinkedIn — Connect and exchange ideas"),
+    ("connect-github.svg", "https://github.com/vaibhav-singh05", "GitHub — vaibhav-singh05"),
+    ("connect-email.svg", "mailto:vaibhavsingh273010@gmail.com", "Email — vaibhavsingh273010@gmail.com"),
+    ("connect-portfolio.svg", "https://vaibhav-singh05.github.io/Portfolio-Website/", "Portfolio — vaibhav-singh05.github.io"),
+]
+
+
+def write_connect_slices(full: str) -> None:
+    # GitHub renders SVGs as <img>, so inner <a> tags never receive clicks.
+    # Crop the same card into stacked slices and wrap each social row in HTML.
+    slices = [
+        ("connect-head.svg", 0, 148),
+        ("connect-linkedin.svg", 148, 107),
+        ("connect-github.svg", 255, 107),
+        ("connect-email.svg", 362, 107),
+        ("connect-portfolio.svg", 469, 171),
+    ]
+    src = 'width="1200" height="640" viewBox="0 0 1200 640"'
+    for name, y, h in slices:
+        if src not in full:
+            raise RuntimeError("connect.svg open tag changed; update write_connect_slices")
+        (ASSETS / name).write_text(
+            full.replace(src, f'width="1200" height="{h}" viewBox="0 {y} 1200 {h}"'),
+            encoding="utf-8",
+        )
+
+
 def write_readme() -> None:
+    rows = "\n".join(
+        f'  <tr><td><a href="{href}"><img src="./assets/{name}?v=9" width="100%" alt="{alt}" /></a></td></tr>'
+        for name, href, alt in CONNECT_LINKS
+    )
     (ROOT / "README.md").write_text(
-        """<p align="center">
-  <img src="./assets/hero.svg?v=8" width="100%" alt="Hi, I'm Vaibhav Singh — Senior AI Software Engineer at Spoto.in. Building AI-powered, scalable backends with Python, Django REST and APIs." />
+        f"""<p align="center">
+  <img src="./assets/hero.svg?v=9" width="100%" alt="Hi, I'm Vaibhav Singh — Senior AI Software Engineer at Spoto.in. Building AI-powered, scalable backends with Python, Django REST and APIs." />
 </p>
 
-<img src="./assets/about-life.svg?v=8" width="100%" alt="Django REST and APIs, AI and cloud backends, full-stack shipping. Backend systems, live products, and problem solving." />
+<img src="./assets/about-life.svg?v=9" width="100%" alt="Django REST and APIs, AI and cloud backends, full-stack shipping. Backend systems, live products, and problem solving." />
 
-<img src="./assets/stack.svg?v=8" width="100%" alt="My stack: Python, JavaScript, C/C++, Django, DRF, PostgreSQL, AWS, Nginx, and Razorpay." />
+<img src="./assets/stack.svg?v=9" width="100%" alt="My stack: Python, JavaScript, C/C++, Django, DRF, PostgreSQL, AWS, Nginx, and Razorpay." />
 
-<img src="./assets/id-dashboard.svg?v=8" width="100%" alt="Vaibhav's builder ID and public dashboard. 100+ LeetCode, 13 public repositories, 2+ years shipping. Snapshot: October 24, 2026." />
+<img src="./assets/id-dashboard.svg?v=9" width="100%" alt="Vaibhav's builder ID and public dashboard. 100+ LeetCode, 13 public repositories, 2+ years shipping. Snapshot: October 24, 2026." />
 
-<img src="./assets/connect.svg?v=8" width="100%" alt="Let's build what's next. Connect on LinkedIn, GitHub, email, or the live portfolio." />
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tr><td><img src="./assets/connect-head.svg?v=9" width="100%" alt="Let's connect. Build something great." /></td></tr>
+{rows}
+</table>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vaibhav-singh-2a5991229/">LinkedIn</a> &nbsp;·&nbsp;
@@ -763,6 +798,8 @@ def write_preview() -> None:
     body { margin: 0; background: #0d1117; color: #c9d1d9; font-family: Segoe UI, sans-serif; }
     main { max-width: 980px; margin: 32px auto; padding: 0 16px 64px; }
     img { width: 100%; display: block; margin: 18px 0; }
+    main a img { margin: 0; }
+    main img[src*="connect-head"] { margin-bottom: 0; }
     table { width: 100%; border-collapse: collapse; color: #c9d1d9; }
     td, th { border: 1px solid #30363d; padding: 10px; text-align: left; }
     a { color: #58a6ff; }
@@ -774,7 +811,11 @@ def write_preview() -> None:
     <img src="./assets/about-life.svg" alt="about"/>
     <img src="./assets/stack.svg" alt="stack"/>
     <img src="./assets/id-dashboard.svg" alt="id"/>
-    <img src="./assets/connect.svg" alt="connect"/>
+    <img src="./assets/connect-head.svg" alt="Let's connect"/>
+    <a href="https://www.linkedin.com/in/vaibhav-singh-2a5991229/"><img src="./assets/connect-linkedin.svg" alt="LinkedIn"/></a>
+    <a href="https://github.com/vaibhav-singh05"><img src="./assets/connect-github.svg" alt="GitHub"/></a>
+    <a href="mailto:vaibhavsingh273010@gmail.com"><img src="./assets/connect-email.svg" alt="Email"/></a>
+    <a href="https://vaibhav-singh05.github.io/Portfolio-Website/"><img src="./assets/connect-portfolio.svg" alt="Portfolio"/></a>
   </main>
 </body>
 </html>
@@ -795,6 +836,7 @@ def main() -> None:
         dest = ASSETS / name
         dest.write_text(markup, encoding="utf-8")
         print(f"{name:20} {dest.stat().st_size / 1024:.1f} KB")
+    write_connect_slices(mapping["connect.svg"])
     write_readme()
     write_preview()
     print("profile assets ready")
