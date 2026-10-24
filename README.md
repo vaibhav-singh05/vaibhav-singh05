@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="./assets/heroo.svg" alt="Vaibhav Singh intro" width="880" />
+<img src="./assets/heroo.png" alt="Vaibhav Singh intro" width="880" />
 
-<img src="./assets/id.png" alt="Vaibhav Singh" width="220" />
-<img src="./assets/right_pointing.png" alt="Vaibhav pointing" height="240" />
+<img src="./assets/id.png" alt="Vaibhav Singh" width="200" />
+<img src="./assets/right_pointing.png" alt="Vaibhav pointing" height="220" />
 
-<img src="./assets/about-life.svg" alt="About" width="880" />
-<img src="./assets/stack.svg" alt="Stack" width="880" />
-<img src="./assets/id-dashboard.svg" alt="Identity" width="880" />
-<img src="./assets/connect.svg" alt="Connect" width="880" />
+<img src="./assets/about-life.png" alt="About" width="880" />
+<img src="./assets/stack.png" alt="Stack" width="880" />
+<img src="./assets/id-dashboard.png" alt="Identity" width="880" />
+<img src="./assets/connect.png" alt="Connect" width="880" />
 
 <br/>
 
